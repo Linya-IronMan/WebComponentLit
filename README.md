@@ -1,2 +1,2 @@
-# WebComponeontLit
+# WebComponentLit
 A WebComponent library by Lit
