@@ -1,4 +1,4 @@
-# WebComponeontLit
+# WebComponentLit
 A WebComponent library by Lit
 
 使用原生的 DOM 开发 WebComponent 太麻烦了，尝试使用相应的框架
