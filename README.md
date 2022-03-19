@@ -93,4 +93,7 @@ module.exports = {
 
 # 需要使用lerna管理各个组件
 
-- `lerna init`
+- `lerna init`: 初始化lerna环境, 会创建一个 `lerna.json` 文件
+- `lerna add lit`: 添加 `lit` 依赖
+
+

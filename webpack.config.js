@@ -1,10 +1,10 @@
 const path = require("path");
 const htmlWebpackPlugin = require("html-webpack-plugin");
-const dist = path.resolve(__dirname, "./dist");
+const dist = path.resolve(__dirname, ".");
 module.exports = {
   mode: "development",
   entry: {
-    main: path.resolve(__dirname, "./main.ts"),
+    ".": "./main.ts",
   },
   output: {
     path: dist,
@@ -33,7 +33,6 @@ module.exports = {
       template: "index.html",
       inject: false,
       title: "WebComponent-Lit",
-      // chunks: ["main"],
     }),
   ],
 };

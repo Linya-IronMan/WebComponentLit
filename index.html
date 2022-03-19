@@ -6,8 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebComponent Lit</title>
     <script src="index.js"></script>
+    <style>
+      .flex {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+      }
+    </style>
   </head>
   <body>
-    <p><code>Hello world</code></p>
+    <div>
+      <p><code>BUTTON</code></p>
+      <div class="flex">
+        <me-button type="primary"> primary </me-button>
+        <me-button type="secondary"> secondary </me-button>
+        <me-button type="dashed"> dashed </me-button>
+        <me-button type="outline"> outline </me-button>
+        <me-button type="text">text</me-button>
+      </div>
+    </div>
   </body>
 </html>
